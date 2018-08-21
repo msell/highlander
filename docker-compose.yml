@@ -1,0 +1,9 @@
+version: '3.4'
+services:
+  storybook:
+    container_name: storybook
+    image: storybook
+    build: ./packages/storybook
+    ports:
+      - "6007:80"
+
