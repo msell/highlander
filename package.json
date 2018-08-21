@@ -14,7 +14,7 @@
   "scripts": {
     "build:api": "lerna run build --scope={@highlander/common,@highlander/api}",
     "build:web": "lerna run build --scope={@highlander/common,@highlander/web}",
-    "build:storybook": "lerna run build --scope=@highlander/storybook",
+    "build:storybook": "lerna run build --scope={@highlander/common,@highlander/storybook}",
     "lint": "eslint packages/common",
     "lint:watch": "esw -w packages/common",
     "lint:fix": "eslint --fix packages/common"
